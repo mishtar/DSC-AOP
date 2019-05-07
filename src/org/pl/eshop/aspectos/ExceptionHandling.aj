@@ -1,4 +1,4 @@
-package aspectos;
+package org.pl.eshop.aspectos;
 
 import java.sql.SQLException;
 

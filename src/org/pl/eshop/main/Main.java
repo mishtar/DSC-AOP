@@ -1,3 +1,5 @@
+package org.pl.eshop.main;
+
 import java.sql.SQLException;
 import java.util.List;
 
