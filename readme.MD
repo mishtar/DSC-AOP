@@ -6,6 +6,7 @@ Para obtener la parte estática de un JoinPoint se utiliza el metodo getStaticPa
 
 Es bastante útil usar los joinpoints estáticos para obtener la firma de un metodo dentro de una clase, como se muestra a continuación, como se puede observar ayuda a detectar dinámicamente puntos estáticos dentro del programa:
 
+```
 @AfterThrowing(pointcut = "execution(* cn.org.once.cstack.service.ModuleService.remove(..)) " +
     "|| execution(* cn.org.once.cstack.service.ModuleService.initModule(..))",
     throwing = "e")
@@ -29,3 +30,4 @@ public void afterThrowingModule(StaticPart staticPart,
         messageService.create(message);
     }
 }
+```
