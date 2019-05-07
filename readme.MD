@@ -1,4 +1,4 @@
-** Qué es un Joinpoint estático en AspectJ
+# Qué es un Joinpoint estático en AspectJ?
 
 Son puntos en el programa usados para demarcar un método, invocación, constructor, campo, que posteriormente se usarán para identificar una ubicación dentro del programa cuando hay un joinpoint de ejecución (el cual es un evento que ocurre dentro de uno de estos joinpoint estáticos), resumiendo el termino joinpoint estático se refiere a ubicaciones dentro del programa en las que ocurrirán eventos o acciones importantes para demarcar.
 
